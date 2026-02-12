@@ -8,7 +8,7 @@
         "Kubernetes": "./kubernetes/*.yaml"
     },
     "terminal.integrated.profiles.linux": {
-        "bash": {
+        "fish": {
           "path": "/usr/bin/fish"
         }
       },

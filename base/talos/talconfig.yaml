@@ -21,7 +21,7 @@ cniConfig:
 patches:
     - '@./patches/all.yaml'
 nodes:
-    # We would adivce to always stick to a "k8s-something-1" style naming scheme
+    # We would advise to always stick to a "k8s-something-1" style naming scheme
     - hostname: k8s-control-1
       ipAddress: ${MASTER1IP_IP}
       controlPlane: true
@@ -31,7 +31,7 @@ nodes:
       installDiskSelector:
         size: <= 1600GB
       networkInterfaces:
-        # suffix is the adapter mac adres.
+        # suffix is the adapter mac address.
         - interface: eth0
           addresses:
             - ${MASTER1IP_CIDR}
