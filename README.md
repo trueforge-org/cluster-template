@@ -1,5 +1,7 @@
 # Kubernetes Cluster Template
 
+WIP repository intended to one-day store the embeded cluster structure for forgetool
+
 This repository contains the kubernetes cluster template from TrueForge ForgeTool.
 
 ## Overview
@@ -71,3 +73,4 @@ This template is designed to be used with TrueForge ForgeTool for cluster bootst
 ## License
 
 See [LICENSE](LICENSE) for details.
+
